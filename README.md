@@ -1,4 +1,5 @@
-## SUSD 
+## SUSD 💵
+
 This is the repository for the SUSD smart contract.
 
 ## Deployment to a Development Blockchain
