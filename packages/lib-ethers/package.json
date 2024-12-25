@@ -48,7 +48,7 @@
     "@types/mocha": "10.0.10",
     "@types/node": "14.18.63",
     "@types/sinon-chai": "4.0.0",
-    "@types/ws": "7.4.7",
+    "@types/ws": "8.5.13",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "chai": "5.1.2",
@@ -64,6 +64,6 @@
     "npm-run-all2": "5.0.2",
     "ts-node": "10.9.2",
     "typescript": "5.7.2",
-    "ws": "7.5.10"
+    "ws": "8.18.0"
   }
 }
