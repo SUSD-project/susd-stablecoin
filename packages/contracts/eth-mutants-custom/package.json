@@ -49,7 +49,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^5.0.0",
     "diff": "^7.0.0",
     "recursive-copy": "^2.0.9",
     "sha1": "^1.1.1",
