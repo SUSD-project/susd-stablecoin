@@ -24,6 +24,6 @@
     "@apollo/client": "^3.3.12",
     "@ethersproject/address": "^5.4.0",
     "cross-fetch": "~4.1.0",
-    "graphql": "^15.3.0"
+    "graphql": "^16.0.0"
   }
 }
