@@ -1868,9 +1868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphprotocol/graph-cli@npm:^0.93.0":
-  version: 0.93.3
-  resolution: "@graphprotocol/graph-cli@npm:0.93.3"
+"@graphprotocol/graph-cli@npm:^0.94.0":
+  version: 0.94.0
+  resolution: "@graphprotocol/graph-cli@npm:0.94.0"
   dependencies:
     "@float-capital/float-subgraph-uncrashable": 0.0.0-internal-testing.5
     "@oclif/core": 4.0.34
@@ -1901,7 +1901,7 @@ __metadata:
     yaml: 2.6.1
   bin:
     graph: bin/run.js
-  checksum: 0c5b15e04b84169e80ad5402b875213b99ed2da17f1492f8945efd4884fc53e4bc43289d7998df41383704be0f9e825f0f906a54cb08a10968a03c0804de158f
+  checksum: 67d54da711a7623789847eb9bfe176c6876d4da9c5213a53c1edc549f9f7d66f856d4d6bcd80e04b119fad33be569152be79f367aa33a3a9e645c2ecd9f5e1b4
   languageName: node
   linkType: hard
 
@@ -2572,7 +2572,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/subgraph@workspace:packages/subgraph"
   dependencies:
-    "@graphprotocol/graph-cli": ^0.93.0
+    "@graphprotocol/graph-cli": ^0.94.0
     "@graphprotocol/graph-ts": ^0.37.0
     npm-run-all2: ^7.0.0
   languageName: unknown
