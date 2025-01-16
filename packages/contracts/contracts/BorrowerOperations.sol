@@ -4,10 +4,9 @@ pragma solidity 0.6.11;
 
 import "./Interfaces/IBorrowerOperations.sol";
 import "./Interfaces/ITroveManager.sol";
-import "./Interfaces/ILUSDToken.sol";
+import "./Interfaces/ISUSDToken.sol";
 import "./Interfaces/ICollSurplusPool.sol";
 import "./Interfaces/ISortedTroves.sol";
-import "./Interfaces/ILQTYStaking.sol";
 import "./Dependencies/LiquityBase.sol";
 import "./Dependencies/Ownable.sol";
 import "./Dependencies/CheckContract.sol";
@@ -52,7 +51,6 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
         uint LUSDFee;
         uint newDebt;
         uint newColl;
-        uint stake;
     }
 
     struct LocalVariables_openTrove {
@@ -62,14 +60,13 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
         uint compositeDebt;
         uint ICR;
         uint NICR;
-        uint stake;
         uint arrayIndex;
     }
 
     struct ContractsCache {
         ITroveManager troveManager;
         IActivePool activePool;
-        ILUSDToken lusdToken;
+        ISUSDToken susdToken;
     }
 
     enum BorrowerOperation {
@@ -133,11 +130,9 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
         collSurplusPool = ICollSurplusPool(_collSurplusPoolAddress);
         priceFeed = IPriceFeed(_priceFeedAddress);
         sortedTroves = ISortedTroves(_sortedTrovesAddress);
-        lusdToken = ILUSDToken(_lusdTokenAddress);
+        susdToken = ISUSDToken(_lusdTokenAddress);
         lqtyStakingAddress = _lqtyStakingAddress;
-        lqtyStaking = ILQTYStaking(_lqtyStakingAddress);
 
-        emit TroveManagerAddressChanged(_troveManagerAddress);
         emit ActivePoolAddressChanged(_activePoolAddress);
         emit DefaultPoolAddressChanged(_defaultPoolAddress);
         emit StabilityPoolAddressChanged(_stabilityPoolAddress);
@@ -145,8 +140,7 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
         emit CollSurplusPoolAddressChanged(_collSurplusPoolAddress);
         emit PriceFeedAddressChanged(_priceFeedAddress);
         emit SortedTrovesAddressChanged(_sortedTrovesAddress);
-        emit LUSDTokenAddressChanged(_lusdTokenAddress);
-        emit LQTYStakingAddressChanged(_lqtyStakingAddress);
+        emit SUSDTokenAddressChanged(_susdTokenAddress);
 
         _renounceOwnership();
     }
@@ -154,7 +148,7 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
     // --- Borrower Trove Operations ---
 
     function openTrove(uint _maxFeePercentage, uint _LUSDAmount, address _upperHint, address _lowerHint) external payable override {
-        ContractsCache memory contractsCache = ContractsCache(troveManager, activePool, lusdToken);
+        ContractsCache memory contractsCache = ContractsCache(troveManager, activePool, susdToken);
         LocalVariables_openTrove memory vars;
 
         vars.price = priceFeed.fetchPrice();
@@ -163,16 +157,16 @@ contract BorrowerOperations is LiquityBase, Ownable, CheckContract, IBorrowerOpe
         _requireValidMaxFeePercentage(_maxFeePercentage, isRecoveryMode);
         _requireTroveisNotActive(contractsCache.troveManager, msg.sender);
 
-        vars.LUSDFee;
+        vars.SUSDFee;
         vars.netDebt = _LUSDAmount;
 
         if (!isRecoveryMode) {
-            vars.LUSDFee = _triggerBorrowingFee(contractsCache.troveManager, contractsCache.lusdToken, _LUSDAmount, _maxFeePercentage);
+            vars.SUSDFee = _triggerBorrowingFee(contractsCache.troveManager, contractsCache.lusdToken, _LUSDAmount, _maxFeePercentage);
             vars.netDebt = vars.netDebt.add(vars.LUSDFee);
         }
         _requireAtLeastMinNetDebt(vars.netDebt);
 
-        // ICR is based on the composite debt, i.e. the requested LUSD amount + LUSD borrowing fee + LUSD gas comp.
+        // ICR is based on the composite debt, i.e. the requested SUSD amount + SUSD borrowing fee + SUSD gas comp.
         vars.compositeDebt = _getCompositeDebt(vars.netDebt);
         assert(vars.compositeDebt > 0);
         

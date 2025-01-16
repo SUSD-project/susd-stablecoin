@@ -6,7 +6,7 @@ import './Interfaces/IBorrowerOperations.sol';
 import './Interfaces/IStabilityPool.sol';
 import './Interfaces/IBorrowerOperations.sol';
 import './Interfaces/ITroveManager.sol';
-import './Interfaces/ILUSDToken.sol';
+import './Interfaces/ISUSDToken.sol';
 import './Interfaces/ISortedTroves.sol';
 import "./Interfaces/ICommunityIssuance.sol";
 import "./Dependencies/LiquityBase.sol";

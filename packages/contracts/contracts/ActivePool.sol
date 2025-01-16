@@ -25,7 +25,7 @@ contract ActivePool is Ownable, CheckContract, IActivePool {
     address public stabilityPoolAddress;
     address public defaultPoolAddress;
     uint256 internal ETH;  // deposited ether tracker
-    uint256 internal LUSDDebt;
+    uint256 internal SUSDDebt;
 
     // --- Events ---
 
