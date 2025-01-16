@@ -59,7 +59,7 @@
     "eslint": "9.18.0",
     "eslint-plugin-tsdoc": "0.4.0",
     "ethers": "6.13.5",
-    "fs-extra": "11.2.0",
+    "fs-extra": "11.3.0",
     "hardhat": "^2.6.1",
     "npm-run-all2": "7.0.2",
     "ts-node": "10.9.2",
