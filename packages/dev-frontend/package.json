@@ -52,7 +52,7 @@
     "typescript": "^5.3.3",
     "vite": "^6.0.0",
     "vite-plugin-node-polyfills": "^0.22.0",
-    "vitest": "^2.0.0",
+    "vitest": "^3.0.0",
     "yalc": "1.0.0-pre.53"
   },
   "scripts": {
