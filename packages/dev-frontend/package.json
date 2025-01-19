@@ -51,7 +51,7 @@
     "source-map-explorer": "2.5.3",
     "typescript": "^5.3.3",
     "vite": "^6.0.0",
-    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-plugin-node-polyfills": "^0.23.0",
     "vitest": "^3.0.0",
     "yalc": "1.0.0-pre.53"
   },
