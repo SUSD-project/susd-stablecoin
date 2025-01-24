@@ -1707,9 +1707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphprotocol/graph-cli@npm:^0.94.0":
-  version: 0.94.0
-  resolution: "@graphprotocol/graph-cli@npm:0.94.0"
+"@graphprotocol/graph-cli@npm:^0.95.0":
+  version: 0.95.0
+  resolution: "@graphprotocol/graph-cli@npm:0.95.0"
   dependencies:
     "@float-capital/float-subgraph-uncrashable": 0.0.0-internal-testing.5
     "@oclif/core": 4.0.34
@@ -1719,7 +1719,6 @@ __metadata:
     "@pinax/graph-networks-registry": ^0.6.5
     "@whatwg-node/fetch": ^0.10.1
     assemblyscript: 0.19.23
-    binary-install: ^1.1.0
     chokidar: 4.0.1
     debug: 4.3.7
     docker-compose: 1.1.0
@@ -1735,12 +1734,12 @@ __metadata:
     prettier: 3.4.2
     semver: 7.6.3
     tmp-promise: 3.0.3
-    undici: 7.1.1
+    undici: 7.2.3
     web3-eth-abi: 4.4.1
     yaml: 2.6.1
   bin:
     graph: bin/run.js
-  checksum: 67d54da711a7623789847eb9bfe176c6876d4da9c5213a53c1edc549f9f7d66f856d4d6bcd80e04b119fad33be569152be79f367aa33a3a9e645c2ecd9f5e1b4
+  checksum: c9b6e6d7a18f98c38eaa7929f08d0371ffba9236eefb550070ee00c63267bac11f92ff7767e382b1824da85990f219fae5e4e9453d850e0cd4466278a38b5801
   languageName: node
   linkType: hard
 
@@ -2411,7 +2410,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/subgraph@workspace:packages/subgraph"
   dependencies:
-    "@graphprotocol/graph-cli": ^0.94.0
+    "@graphprotocol/graph-cli": ^0.95.0
     "@graphprotocol/graph-ts": ^0.37.0
     npm-run-all2: ^7.0.0
   languageName: unknown
@@ -8174,15 +8173,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.26.1":
-  version: 0.26.1
-  resolution: "axios@npm:0.26.1"
-  dependencies:
-    follow-redirects: ^1.14.8
-  checksum: d9eb58ff4bc0b36a04783fc9ff760e9245c829a5a1052ee7ca6013410d427036b1d10d04e7380c02f3508c5eaf3485b1ae67bd2adbfec3683704745c8d7a6e1a
-  languageName: node
-  linkType: hard
-
 "axios@npm:^1.6.7":
   version: 1.7.9
   resolution: "axios@npm:1.7.9"
@@ -8318,17 +8308,6 @@ __metadata:
   version: 2.3.0
   resolution: "binary-extensions@npm:2.3.0"
   checksum: bcad01494e8a9283abf18c1b967af65ee79b0c6a9e6fcfafebfe91dbe6e0fc7272bafb73389e198b310516ae04f7ad17d79aacf6cb4c0d5d5202a7e2e52c7d98
-  languageName: node
-  linkType: hard
-
-"binary-install@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "binary-install@npm:1.1.0"
-  dependencies:
-    axios: ^0.26.1
-    rimraf: ^3.0.2
-    tar: ^6.1.11
-  checksum: 271344b49f42460f5e3ec29d681cd4b749aaf9592040d49f6ae86d267b997b5fd094fd7a710df4d477fc299a51833b8cb94206595db6c46edea3f1603266a0d2
   languageName: node
   linkType: hard
 
@@ -13213,7 +13192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.15.6":
+"follow-redirects@npm:^1.15.6":
   version: 1.15.9
   resolution: "follow-redirects@npm:1.15.9"
   peerDependenciesMeta:
@@ -25023,10 +25002,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:7.1.1":
-  version: 7.1.1
-  resolution: "undici@npm:7.1.1"
-  checksum: dc4d4eb1a9b35881c5ed4c9480751666f301a163fa0c792b6ee5c637155203a4afa108b446a0527d9d91ebb388eef552f08989fa25eadcf8e24ce21e2fe2ba25
+"undici@npm:7.2.3":
+  version: 7.2.3
+  resolution: "undici@npm:7.2.3"
+  checksum: 93bfe6b1f5acc1c7180a2d6a04b22bda8223ee4c683a7f240b261b272eeb3bd46e9514f70afe8ad3e55e82ca06ade19cd7bc590202a0b4118803a75daf776b5d
   languageName: node
   linkType: hard
 
