@@ -2320,7 +2320,7 @@ __metadata:
     "@types/mocha": 10.0.10
     "@typescript-eslint/eslint-plugin": 8.24.0
     "@typescript-eslint/parser": 8.24.0
-    eslint: 9.20.0
+    eslint: 9.20.1
     eslint-plugin-tsdoc: 0.4.0
     fast-check: 3.23.2
     mocha: 11.1.0
@@ -2346,12 +2346,12 @@ __metadata:
     "@types/ws": 8.5.14
     "@typescript-eslint/eslint-plugin": 8.24.0
     "@typescript-eslint/parser": 8.24.0
-    chai: 5.1.2
+    chai: 5.2.0
     chai-as-promised: 8.0.1
     chai-spies: 1.1.0
     cross-env: 7.0.3
     dotenv: 16.4.7
-    eslint: 9.20.0
+    eslint: 9.20.1
     eslint-plugin-tsdoc: 0.4.0
     ethers: 6.13.5
     fs-extra: 11.3.0
@@ -2374,7 +2374,7 @@ __metadata:
     "@types/react": ^19.0.0
     "@typescript-eslint/eslint-plugin": 8.24.0
     "@typescript-eslint/parser": 8.24.0
-    eslint: 9.20.0
+    eslint: 9.20.1
     eslint-plugin-react: 7.37.4
     eslint-plugin-react-hooks: 5.1.0
     npm-run-all2: 7.0.2
@@ -9007,16 +9007,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:5.1.2, chai@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "chai@npm:5.1.2"
+"chai@npm:5.2.0":
+  version: 5.2.0
+  resolution: "chai@npm:5.2.0"
   dependencies:
     assertion-error: ^2.0.1
     check-error: ^2.1.1
     deep-eql: ^5.0.1
     loupe: ^3.1.0
     pathval: ^2.0.0
-  checksum: f2341967ab5632612548d372c27b46219adad3af35021d8cba2ae3c262f588de2c60cb3f004e6ad40e363a9cad6d20d0de51f00e7e9ac31cce17fb05d4efa316
+  checksum: 15e4ba12d02df3620fd59b4a6e8efe43b47872ce61f1c0ca77ac1205a2a5898f3b6f1f52408fd1a708b8d07fdfb5e65b97af40bad9fd94a69ed8d4264c7a69f1
   languageName: node
   linkType: hard
 
@@ -9032,6 +9032,19 @@ __metadata:
     pathval: ^1.1.1
     type-detect: ^4.0.5
   checksum: 0bba7d267848015246a66995f044ce3f0ebc35e530da3cbdf171db744e14cbe301ab913a8d07caf7952b430257ccbb1a4a983c570a7c5748dc537897e5131f7c
+  languageName: node
+  linkType: hard
+
+"chai@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "chai@npm:5.1.2"
+  dependencies:
+    assertion-error: ^2.0.1
+    check-error: ^2.1.1
+    deep-eql: ^5.0.1
+    loupe: ^3.1.0
+    pathval: ^2.0.0
+  checksum: f2341967ab5632612548d372c27b46219adad3af35021d8cba2ae3c262f588de2c60cb3f004e6ad40e363a9cad6d20d0de51f00e7e9ac31cce17fb05d4efa316
   languageName: node
   linkType: hard
 
@@ -11976,9 +11989,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.20.0":
-  version: 9.20.0
-  resolution: "eslint@npm:9.20.0"
+"eslint@npm:9.20.1":
+  version: 9.20.1
+  resolution: "eslint@npm:9.20.1"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.12.1
@@ -12021,7 +12034,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 660de11c4dbfaa311b17d0670949adb5f023811e50786a6217bd833a299f8245929577ddd62c18bacf39c82462edf795383cf6d26cc4a018a8d118aef7cadea4
+  checksum: 561d24faa8438ef8a9bfbbde3de60f1d1b91171cd1c910b4581b8c8fb6e2e97fc42685fba66fefb3577b95237f05ae4e752afa24943a114d488448fed47eaa03
   languageName: node
   linkType: hard
 
