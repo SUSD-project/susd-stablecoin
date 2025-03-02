@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@adobe/css-tools@npm:^4.3.2":
   version: 4.3.3
@@ -2638,8 +2638,8 @@ __metadata:
 
 "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds::locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend":
   version: 0.0.1
-  resolution: "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds#.yalc/@liquity/chicken-bonds::hash=d0de3d&locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend"
-  checksum: 10/9194b782bf2f936110f385e776cf27b3f3b6bc514fb8abb7dd83700b713aa31c93a62d9dbdf8ed7f35a8ce31225199f115a2002970f162436c03e1d79996e5fb
+  resolution: "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds#.yalc/@liquity/chicken-bonds::hash=084ad5&locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend"
+  checksum: 10c0/09eaa98340db29e182857b8cf8506403e964b8e203022e3331da25b7a16422ae13d58c979671a081349c25b231407e69a9d2ff02978cee86c4c26d104dc717fe
   languageName: node
   linkType: hard
 
@@ -2750,7 +2750,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-base@workspace:packages/lib-base"
   dependencies:
-    "@ethersproject/bignumber": "npm:5.7.0"
+    "@ethersproject/bignumber": "npm:5.8.0"
     "@microsoft/api-extractor": "npm:7.51.0"
     "@types/mocha": "npm:10.0.10"
     "@typescript-eslint/eslint-plugin": "npm:8.25.0"
@@ -2805,13 +2805,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-react@workspace:packages/lib-react"
   dependencies:
-    "@ethersproject/bignumber": "npm:5.7.0"
+    "@ethersproject/bignumber": "npm:5.8.0"
     "@types/react": "npm:^19.0.0"
     "@typescript-eslint/eslint-plugin": "npm:8.25.0"
     "@typescript-eslint/parser": "npm:8.25.0"
     eslint: "npm:9.21.0"
     eslint-plugin-react: "npm:7.37.4"
-    eslint-plugin-react-hooks: "npm:5.1.0"
+    eslint-plugin-react-hooks: "npm:5.2.0"
     npm-run-all2: "npm:7.0.2"
     react: "npm:^19.0.0"
     typescript: "npm:5.7.3"
@@ -12347,7 +12347,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:5.1.0, eslint-plugin-react-hooks@npm:^5.0.0":
+"eslint-plugin-react-hooks@npm:5.2.0":
+  version: 5.2.0
+  resolution: "eslint-plugin-react-hooks@npm:5.2.0"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
+  checksum: 10c0/1c8d50fa5984c6dea32470651807d2922cc3934cf3425e78f84a24c2dfd972e7f019bee84aefb27e0cf2c13fea0ac1d4473267727408feeb1c56333ca1489385
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react-hooks@npm:^5.0.0":
   version: 5.1.0
   resolution: "eslint-plugin-react-hooks@npm:5.1.0"
   peerDependencies:
