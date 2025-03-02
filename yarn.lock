@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@adobe/css-tools@npm:^4.3.2":
   version: 4.3.3
@@ -2638,8 +2638,8 @@ __metadata:
 
 "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds::locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend":
   version: 0.0.1
-  resolution: "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds#.yalc/@liquity/chicken-bonds::hash=d0de3d&locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend"
-  checksum: 10/9194b782bf2f936110f385e776cf27b3f3b6bc514fb8abb7dd83700b713aa31c93a62d9dbdf8ed7f35a8ce31225199f115a2002970f162436c03e1d79996e5fb
+  resolution: "@liquity/chicken-bonds@file:.yalc/@liquity/chicken-bonds#.yalc/@liquity/chicken-bonds::hash=084ad5&locator=%40liquity%2Fdev-frontend%40workspace%3Apackages%2Fdev-frontend"
+  checksum: 10c0/09eaa98340db29e182857b8cf8506403e964b8e203022e3331da25b7a16422ae13d58c979671a081349c25b231407e69a9d2ff02978cee86c4c26d104dc717fe
   languageName: node
   linkType: hard
 
@@ -2811,7 +2811,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:8.25.0"
     eslint: "npm:9.21.0"
     eslint-plugin-react: "npm:7.37.4"
-    eslint-plugin-react-hooks: "npm:5.1.0"
+    eslint-plugin-react-hooks: "npm:5.2.0"
     npm-run-all2: "npm:7.0.2"
     react: "npm:^19.0.0"
     typescript: "npm:5.7.3"
@@ -3488,19 +3488,19 @@ __metadata:
   linkType: hard
 
 "@nomiclabs/hardhat-truffle5@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@nomiclabs/hardhat-truffle5@npm:2.0.0"
+  version: 2.0.7
+  resolution: "@nomiclabs/hardhat-truffle5@npm:2.0.7"
   dependencies:
     "@nomiclabs/truffle-contract": "npm:^4.2.23"
     "@types/chai": "npm:^4.2.0"
     chai: "npm:^4.2.0"
-    ethereumjs-util: "npm:^6.1.0"
+    ethereumjs-util: "npm:^7.1.4"
     fs-extra: "npm:^7.0.1"
   peerDependencies:
     "@nomiclabs/hardhat-web3": ^2.0.0
-    hardhat: ^2.0.0
+    hardhat: ^2.6.4
     web3: ^1.0.0-beta.36
-  checksum: 8/04f57e7286afe4eaf55a933aee56da3d0f4307e6cf0c332ae3f675844bd3f910b700767b8c8d383b8b696ddc7066b9d5cca5064cb9bb88296402e47dad5ac6f4
+  checksum: 10c0/0ebb298314496b2f64fd117d14b01241db62be2269520b4a28eeb17958e9c1e25fb9921c0fa5db367d47526078fb45ff398f6b5349bf7e5d636853d8a1b210ae
   languageName: node
   linkType: hard
 
@@ -12347,7 +12347,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:5.1.0, eslint-plugin-react-hooks@npm:^5.0.0":
+"eslint-plugin-react-hooks@npm:5.2.0":
+  version: 5.2.0
+  resolution: "eslint-plugin-react-hooks@npm:5.2.0"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
+  checksum: 10c0/1c8d50fa5984c6dea32470651807d2922cc3934cf3425e78f84a24c2dfd972e7f019bee84aefb27e0cf2c13fea0ac1d4473267727408feeb1c56333ca1489385
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react-hooks@npm:^5.0.0":
   version: 5.1.0
   resolution: "eslint-plugin-react-hooks@npm:5.1.0"
   peerDependencies:
@@ -12876,7 +12885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethereumjs-util@npm:^6.0.0, ethereumjs-util@npm:^6.1.0, ethereumjs-util@npm:^6.2.1":
+"ethereumjs-util@npm:^6.0.0, ethereumjs-util@npm:^6.2.1":
   version: 6.2.1
   resolution: "ethereumjs-util@npm:6.2.1"
   dependencies:
