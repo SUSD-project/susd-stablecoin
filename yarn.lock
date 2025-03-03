@@ -2674,7 +2674,7 @@ __metadata:
     dotenv: "npm:^16.0.0"
     ethers: "npm:^6.0.0"
     ts-node: "npm:^10.0.0"
-    typescript: "npm:~5.7.0"
+    typescript: "npm:~5.8.0"
     yargs: "npm:^17.0.0"
   languageName: unknown
   linkType: soft
@@ -2694,7 +2694,7 @@ __metadata:
     mocha: "npm:11.1.0"
     npm-run-all2: "npm:7.0.2"
     ts-node: "npm:10.9.2"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
   languageName: unknown
   linkType: soft
 
@@ -2726,7 +2726,7 @@ __metadata:
     hardhat: "npm:^2.6.1"
     npm-run-all2: "npm:7.0.2"
     ts-node: "npm:10.9.2"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
     ws: "npm:8.18.1"
   peerDependencies:
     "@liquity/lib-base": ^3.0.0
@@ -2747,7 +2747,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:5.2.0"
     npm-run-all2: "npm:7.0.2"
     react: "npm:^19.0.0"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
   peerDependencies:
     "@liquity/lib-base": ^3.0.0
     react: ^16.13.1 || ^19.0.0
@@ -2765,7 +2765,7 @@ __metadata:
     graphql: "npm:^16.0.0"
     npm-run-all2: "npm:^7.0.0"
     rimraf: "npm:^6.0.0"
-    typescript: "npm:~5.7.0"
+    typescript: "npm:~5.8.0"
   peerDependencies:
     "@liquity/lib-base": ^3.0.0
   languageName: unknown
@@ -2777,7 +2777,7 @@ __metadata:
   dependencies:
     ethers: "npm:^6.0.0"
     ts-node: "npm:^10.0.0"
-    typescript: "npm:~5.7.0"
+    typescript: "npm:~5.8.0"
   peerDependencies:
     ethers: ^5.3.0 || ^6.0.0
   languageName: unknown
@@ -25111,6 +25111,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:5.8.2, typescript@npm:~5.8.0":
+  version: 5.8.2
+  resolution: "typescript@npm:5.8.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/5c4f6fbf1c6389b6928fe7b8fcd5dc73bb2d58cd4e3883f1d774ed5bd83b151cbac6b7ecf11723de56d4676daeba8713894b1e9af56174f2f9780ae7848ec3c6
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^5.3.3":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
@@ -25118,16 +25128,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 8/2007ccb6e51bbbf6fde0a78099efe04dc1c3dfbdff04ca3b6a8bc717991862b39fd6126c0c3ebf2d2d98ac5e960bcaa873826bb2bb241f14277034148f41f6a2
-  languageName: node
-  linkType: hard
-
-"typescript@npm:~5.7.0":
-  version: 5.7.2
-  resolution: "typescript@npm:5.7.2"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 8/b55300c4cefee8ee380d14fa9359ccb41ff8b54c719f6bc49b424899d662a5ce62ece390ce769568c7f4d14af844085255e63788740084444eb12ef423b13433
   languageName: node
   linkType: hard
 
@@ -25141,6 +25141,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A~5.8.0#optional!builtin<compat/typescript>":
+  version: 5.8.2
+  resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/5448a08e595cc558ab321e49d4cac64fb43d1fa106584f6ff9a8d8e592111b373a995a1d5c7f3046211c8a37201eb6d0f1566f15cdb7a62a5e3be01d087848e2
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
@@ -25148,16 +25158,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10/c93786fcc9a70718ba1e3819bab56064ead5817004d1b8186f8ca66165f3a2d0100fee91fa64c840dcd45f994ca5d615d8e1f566d39a7470fc1e014dbb4cf15d
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@npm%3A~5.7.0#optional!builtin<compat/typescript>":
-  version: 5.7.2
-  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/d75ca10141afc64fd3474b41a8b082b640555bed388d237558aed64e5827ddadb48f90932c7f4205883f18f5bcab8b6a739a2cfac95855604b0dfeb34bc2f3eb
   languageName: node
   linkType: hard
 
