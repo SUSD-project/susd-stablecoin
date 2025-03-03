@@ -4102,8 +4102,8 @@ __metadata:
   linkType: hard
 
 "@openzeppelin/test-helpers@npm:^0.5.10":
-  version: 0.5.10
-  resolution: "@openzeppelin/test-helpers@npm:0.5.10"
+  version: 0.5.16
+  resolution: "@openzeppelin/test-helpers@npm:0.5.16"
   dependencies:
     "@openzeppelin/contract-loader": "npm:^0.6.2"
     "@truffle/contract": "npm:^4.0.35"
@@ -4115,7 +4115,7 @@ __metadata:
     semver: "npm:^5.6.0"
     web3: "npm:^1.2.5"
     web3-utils: "npm:^1.2.5"
-  checksum: 8/c647e1a1024dbd1dc3809c2807e5b0495750cfb9eb1cd1dd04cec631752a53585f4e8bd583742593c2bc7b2a3a710ff275b7347482074b92b780faa5fa9581e8
+  checksum: 10c0/e8b6afa35bf8a3e930658ff506efd1af346f6d6e540bca7c0cf8ab6331409de8b7c7dcf140a03f7a13e85eb35163e99a5cd7653c6d513ec82e090c489eab682a
   languageName: node
   linkType: hard
 
