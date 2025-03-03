@@ -2683,7 +2683,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-base@workspace:packages/lib-base"
   dependencies:
-    "@ethersproject/bignumber": "npm:5.7.0"
+    "@ethersproject/bignumber": "npm:5.8.0"
     "@microsoft/api-extractor": "npm:7.51.0"
     "@types/mocha": "npm:10.0.10"
     "@typescript-eslint/eslint-plugin": "npm:8.25.0"
@@ -2738,7 +2738,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-react@workspace:packages/lib-react"
   dependencies:
-    "@ethersproject/bignumber": "npm:5.7.0"
+    "@ethersproject/bignumber": "npm:5.8.0"
     "@types/react": "npm:^19.0.0"
     "@typescript-eslint/eslint-plugin": "npm:8.25.0"
     "@typescript-eslint/parser": "npm:8.25.0"
