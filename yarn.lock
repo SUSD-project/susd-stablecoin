@@ -2684,7 +2684,7 @@ __metadata:
   resolution: "@liquity/lib-base@workspace:packages/lib-base"
   dependencies:
     "@ethersproject/bignumber": "npm:5.8.0"
-    "@microsoft/api-extractor": "npm:7.51.0"
+    "@microsoft/api-extractor": "npm:7.51.1"
     "@types/mocha": "npm:10.0.10"
     "@typescript-eslint/eslint-plugin": "npm:8.25.0"
     "@typescript-eslint/parser": "npm:8.25.0"
@@ -2702,7 +2702,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-ethers@workspace:packages/lib-ethers"
   dependencies:
-    "@microsoft/api-extractor": "npm:7.51.0"
+    "@microsoft/api-extractor": "npm:7.51.1"
     "@nomiclabs/hardhat-ethers": "npm:^2.0.2"
     "@types/chai": "npm:5.0.1"
     "@types/chai-as-promised": "npm:8.0.1"
@@ -3106,9 +3106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-extractor@npm:7.51.0":
-  version: 7.51.0
-  resolution: "@microsoft/api-extractor@npm:7.51.0"
+"@microsoft/api-extractor@npm:7.51.1":
+  version: 7.51.1
+  resolution: "@microsoft/api-extractor@npm:7.51.1"
   dependencies:
     "@microsoft/api-extractor-model": "npm:7.30.3"
     "@microsoft/tsdoc": "npm:~0.15.1"
@@ -3125,7 +3125,7 @@ __metadata:
     typescript: "npm:5.7.3"
   bin:
     api-extractor: bin/api-extractor
-  checksum: 8/e68116903af3d5b1a09ec0115f6654236343191ae37647f9ee8aae6a77c70873469fca8d8a8554916672cbd3ddfff65cb8ea1400e44407befe879e0fc31c56b9
+  checksum: 10c0/3596e13fee6223b01937f29b52d8dc64fb688ca4351703b38805b81989be1a96007706a77a2f06a0b2330b594f06fadfb906911845f26c52f00ee34332a4cd55
   languageName: node
   linkType: hard
 
