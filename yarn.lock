@@ -368,11 +368,11 @@ __metadata:
   linkType: hard
 
 "@commitlint/cli@npm:^19.0.0":
-  version: 19.6.1
-  resolution: "@commitlint/cli@npm:19.6.1"
+  version: 19.7.1
+  resolution: "@commitlint/cli@npm:19.7.1"
   dependencies:
     "@commitlint/format": "npm:^19.5.0"
-    "@commitlint/lint": "npm:^19.6.0"
+    "@commitlint/lint": "npm:^19.7.1"
     "@commitlint/load": "npm:^19.6.1"
     "@commitlint/read": "npm:^19.5.0"
     "@commitlint/types": "npm:^19.5.0"
@@ -380,17 +380,17 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 8/06f51969fe22b3cd0102073603584b170fc2f6adcd8938ac6bb04ad223c623b9eed7f323480924b29ace614718a756af904456fdc1384bcb15b78935c111ec5b
+  checksum: 10c0/bb5e4f004f6b16078cdc7e7d6ff1a53762cefc1265af017ccef4ab789d2c562b75fe316ccc1751da6bc1172393f2427926c863298edda2e4d00c8323f2878f5b
   languageName: node
   linkType: hard
 
 "@commitlint/config-conventional@npm:^19.0.0":
-  version: 19.6.0
-  resolution: "@commitlint/config-conventional@npm:19.6.0"
+  version: 19.7.1
+  resolution: "@commitlint/config-conventional@npm:19.7.1"
   dependencies:
     "@commitlint/types": "npm:^19.5.0"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
-  checksum: 8/e16a363940892b6c87d343b75a6b9090d8fa61762fa2fe8f57481c0a000968ef4c97c2eb81f9b0098ce92a1b573c896805a402a30f0b518c74dc54d3f8c0baef
+  checksum: 10c0/9de7e5f1e4ac1d995293da12a646936d477c4fc50562de015df26e0b307ebf3fd2632dc8c874ba9d9a81c9540c3189e275fb6fe0b707ae6c9159c013b7dfdb56
   languageName: node
   linkType: hard
 
@@ -435,25 +435,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^19.6.0":
-  version: 19.6.0
-  resolution: "@commitlint/is-ignored@npm:19.6.0"
+"@commitlint/is-ignored@npm:^19.7.1":
+  version: 19.7.1
+  resolution: "@commitlint/is-ignored@npm:19.7.1"
   dependencies:
     "@commitlint/types": "npm:^19.5.0"
     semver: "npm:^7.6.0"
-  checksum: 8/07b41573c9247522eb96af118be97ae015f5d0a141ecf5e3c0f67372b0fb7ba57c98adc462c722b7a7f0dd18ddcbacd92b42228e0e62370d3db110b0a35f6120
+  checksum: 10c0/8c238002c6c7bb0a50cca2dfc001af2cec2926056e090b840e73c25f8d246ac5d8ff862d51a63900a195479869edca7889fc4c7923ffa2bb85a1475f8c469c43
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^19.6.0":
-  version: 19.6.0
-  resolution: "@commitlint/lint@npm:19.6.0"
+"@commitlint/lint@npm:^19.7.1":
+  version: 19.7.1
+  resolution: "@commitlint/lint@npm:19.7.1"
   dependencies:
-    "@commitlint/is-ignored": "npm:^19.6.0"
+    "@commitlint/is-ignored": "npm:^19.7.1"
     "@commitlint/parse": "npm:^19.5.0"
     "@commitlint/rules": "npm:^19.6.0"
     "@commitlint/types": "npm:^19.5.0"
-  checksum: 8/586a6317fc3761db247d4104e452f4b7eae4e7b9ca26349de548f1027da5b74515a244e2b5db6f9a454efb8bd72bb963ec7e329808ee56b873461bb3835f5d44
+  checksum: 10c0/578e2a955c5d16e34dade2538966b5a0fed6ba4e81fcfb477ad3a62472467f80d84d0d79ec017aa5e6815ed6c71b246d660d9febb64cabb175e39eee426b2f98
   languageName: node
   linkType: hard
 
