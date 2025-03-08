@@ -9901,8 +9901,8 @@ __metadata:
   linkType: hard
 
 "connectkit@npm:^1.7.3":
-  version: 1.7.3
-  resolution: "connectkit@npm:1.7.3"
+  version: 1.8.2
+  resolution: "connectkit@npm:1.8.2"
   dependencies:
     buffer: "npm:^6.0.3"
     detect-browser: "npm:^5.3.0"
@@ -9918,7 +9918,7 @@ __metadata:
     react-dom: 17.x || 18.x
     viem: 2.x
     wagmi: 2.x
-  checksum: 8/a998742be4cc07556efad47f79deb61fe38ee418f5b70d5f8b5b6d7021265864f7462a72e8eaedaec02776a1cb5d43e0adbc6c9de92356732cefedbd47906de3
+  checksum: 10c0/e016d865a50a855922ede2a8070ea14fe13e8796a3c774d224ee71d763662843a7144af8387595fbb7670663f27a752168718fd01c40cd7fa68c916e977ed720
   languageName: node
   linkType: hard
 
