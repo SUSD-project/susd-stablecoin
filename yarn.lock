@@ -6402,11 +6402,11 @@ __metadata:
   linkType: hard
 
 "@types/react-modal@npm:^3.13.1":
-  version: 3.13.1
-  resolution: "@types/react-modal@npm:3.13.1"
+  version: 3.16.3
+  resolution: "@types/react-modal@npm:3.16.3"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 8/b0ad403e0051a2882e9086c6006cc342901b1c90caf760893b31717a5cbc04f86cc1ea7b5ce12a2c8350c9c09e9b344de3783404e70b7c7ea6a037d0ffd70e99
+  checksum: 10c0/dfcf52fa4b5d5c203aa47ffaafade369836cb9f891e9b60e7056bf5fdfc508ebec7971bb3d4c4018f422953c1c79948755ef19da3e816c28d7c5fdacf9466af8
   languageName: node
   linkType: hard
 
@@ -20844,17 +20844,17 @@ __metadata:
   linkType: hard
 
 "react-modal@npm:^3.15.1":
-  version: 3.15.1
-  resolution: "react-modal@npm:3.15.1"
+  version: 3.16.3
+  resolution: "react-modal@npm:3.16.3"
   dependencies:
     exenv: "npm:^1.2.0"
     prop-types: "npm:^15.7.2"
     react-lifecycles-compat: "npm:^3.0.0"
     warning: "npm:^4.0.3"
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
-    react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
-  checksum: 8/ee99ca312c35bcec9ef0868babf970ce03c52801731e29be336bb6bdc867a1ecf00a73e1fb5bc3b1b1ef66ceb0c9b4a0199fadb85b1b9829f731409951b018f0
+    react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
+    react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
+  checksum: 10c0/b541c91aef680c51ee9edf4ec14b3be29787e34d4df174150361b1d42b2416b28336e2280abdc71df082b1380d0786fe2122cdca31e19a74b54b49d17855a0f2
   languageName: node
   linkType: hard
 
