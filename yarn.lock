@@ -24652,7 +24652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:^2.1.1":
+"viem@npm:^2.1.1, viem@npm:^2.7.15":
   version: 2.23.9
   resolution: "viem@npm:2.23.9"
   dependencies:
@@ -24670,27 +24670,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/de0db4226ccce52ce3ab318431cea9066ba1fe9340cda6b984fba97bdc26d954a4fde5c64e5577818f41852e461608c30bac3c22083843150fb34132f4a258b6
-  languageName: node
-  linkType: hard
-
-"viem@npm:^2.7.15":
-  version: 2.7.15
-  resolution: "viem@npm:2.7.15"
-  dependencies:
-    "@adraffy/ens-normalize": "npm:1.10.0"
-    "@noble/curves": "npm:1.2.0"
-    "@noble/hashes": "npm:1.3.2"
-    "@scure/bip32": "npm:1.3.2"
-    "@scure/bip39": "npm:1.2.1"
-    abitype: "npm:1.0.0"
-    isows: "npm:1.0.3"
-    ws: "npm:8.13.0"
-  peerDependencies:
-    typescript: ">=5.0.4"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 8/d0d3a9b48fcf64298c08d57dd782fdf6f21538c6472ebc87953928d860f5fd6296a7e22f46f230d68b667df6505fa472414cc3d8e7a041ea2a7f1fd45bc013de
   languageName: node
   linkType: hard
 
