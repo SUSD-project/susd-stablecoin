@@ -2541,7 +2541,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:8.26.0"
     eslint: "npm:9.21.0"
     eslint-plugin-tsdoc: "npm:0.4.0"
-    fast-check: "npm:3.23.2"
+    fast-check: "npm:4.0.0"
     mocha: "npm:11.1.0"
     npm-run-all2: "npm:7.0.2"
     ts-node: "npm:10.9.2"
@@ -12770,12 +12770,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-check@npm:3.23.2":
-  version: 3.23.2
-  resolution: "fast-check@npm:3.23.2"
+"fast-check@npm:4.0.0":
+  version: 4.0.0
+  resolution: "fast-check@npm:4.0.0"
   dependencies:
-    pure-rand: "npm:^6.1.0"
-  checksum: 8/b815bd1a2bda33b8e1927a732368f94c3919d5c3b626065479e2389739dfbc6de885fdf48b7a576505edff4f8931798dc737c7bc7039a58b3412746f0d2e9b86
+    pure-rand: "npm:^7.0.0"
+  checksum: 10c0/027f53839326b5c9362076d9efab5135674c0bbf8c07afa7fdb85c0fb3cd3d493205fc533b22b6256ac67211504dd6952bd3af3d8f582ebf2cb6ed9531d8c871
   languageName: node
   linkType: hard
 
@@ -20532,10 +20532,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pure-rand@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "pure-rand@npm:6.1.0"
-  checksum: 8/8d53bc02bed99eca0b65b505090152ee7e9bd67dd74f8ff32ba1c883b87234067c5bf68d2614759fb217d82594d7a92919e6df80f97885e7b12b42af4bd3316a
+"pure-rand@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "pure-rand@npm:7.0.1"
+  checksum: 10c0/9cade41030f5ec95f5d55a11a71404cd6f46b69becaad892097cd7f58e2c6248cd0a933349ca7d21336ab629f1da42ffe899699b671bc4651600eaf6e57f837e
   languageName: node
   linkType: hard
 
