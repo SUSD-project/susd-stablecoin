@@ -2473,7 +2473,7 @@ __metadata:
   resolution: "@liquity/lib-base@workspace:packages/lib-base"
   dependencies:
     "@ethersproject/bignumber": "npm:5.8.0"
-    "@microsoft/api-extractor": "npm:7.51.1"
+    "@microsoft/api-extractor": "npm:7.52.1"
     "@types/mocha": "npm:10.0.10"
     "@typescript-eslint/eslint-plugin": "npm:8.26.1"
     "@typescript-eslint/parser": "npm:8.26.1"
@@ -2491,7 +2491,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@liquity/lib-ethers@workspace:packages/lib-ethers"
   dependencies:
-    "@microsoft/api-extractor": "npm:7.51.1"
+    "@microsoft/api-extractor": "npm:7.52.1"
     "@nomiclabs/hardhat-ethers": "npm:^2.0.2"
     "@types/chai": "npm:5.2.0"
     "@types/chai-as-promised": "npm:8.0.2"
@@ -2914,26 +2914,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-extractor@npm:7.51.1":
-  version: 7.51.1
-  resolution: "@microsoft/api-extractor@npm:7.51.1"
+"@microsoft/api-extractor-model@npm:7.30.4":
+  version: 7.30.4
+  resolution: "@microsoft/api-extractor-model@npm:7.30.4"
   dependencies:
-    "@microsoft/api-extractor-model": "npm:7.30.3"
     "@microsoft/tsdoc": "npm:~0.15.1"
     "@microsoft/tsdoc-config": "npm:~0.17.1"
-    "@rushstack/node-core-library": "npm:5.11.0"
+    "@rushstack/node-core-library": "npm:5.12.0"
+  checksum: 10c0/96619d86c5c945a2de215c7f6a006a8fa874b291a17ba2d6f5a495c9abb752733c57b2ead5ad00ce115974458a9ad5f7afca21d0c015f29a397c59a41ea08273
+  languageName: node
+  linkType: hard
+
+"@microsoft/api-extractor@npm:7.52.1":
+  version: 7.52.1
+  resolution: "@microsoft/api-extractor@npm:7.52.1"
+  dependencies:
+    "@microsoft/api-extractor-model": "npm:7.30.4"
+    "@microsoft/tsdoc": "npm:~0.15.1"
+    "@microsoft/tsdoc-config": "npm:~0.17.1"
+    "@rushstack/node-core-library": "npm:5.12.0"
     "@rushstack/rig-package": "npm:0.5.3"
-    "@rushstack/terminal": "npm:0.15.0"
-    "@rushstack/ts-command-line": "npm:4.23.5"
+    "@rushstack/terminal": "npm:0.15.1"
+    "@rushstack/ts-command-line": "npm:4.23.6"
     lodash: "npm:~4.17.15"
     minimatch: "npm:~3.0.3"
     resolve: "npm:~1.22.1"
     semver: "npm:~7.5.4"
     source-map: "npm:~0.6.1"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
   bin:
     api-extractor: bin/api-extractor
-  checksum: 10c0/3596e13fee6223b01937f29b52d8dc64fb688ca4351703b38805b81989be1a96007706a77a2f06a0b2330b594f06fadfb906911845f26c52f00ee34332a4cd55
+  checksum: 10c0/d7e4254b7fa71231262288265d2f3bd12c80e323e5d1065a6314791b937fb7e804488cd197b97e1005d3884f14b39927e4c46cf5556a161439db49e0253914ab
   languageName: node
   linkType: hard
 
@@ -4652,6 +4663,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rushstack/node-core-library@npm:5.12.0":
+  version: 5.12.0
+  resolution: "@rushstack/node-core-library@npm:5.12.0"
+  dependencies:
+    ajv: "npm:~8.13.0"
+    ajv-draft-04: "npm:~1.0.0"
+    ajv-formats: "npm:~3.0.1"
+    fs-extra: "npm:~11.3.0"
+    import-lazy: "npm:~4.0.0"
+    jju: "npm:~1.4.0"
+    resolve: "npm:~1.22.1"
+    semver: "npm:~7.5.4"
+  peerDependencies:
+    "@types/node": "*"
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+  checksum: 10c0/e2ad1138e8619ed5ea28072da69ed0f785ff0e6017ee04bed7254f8f34a8356ba3f86d9942aaaf2fb812c68991ff9fd1f471d33df51254ee54bbe551819f9956
+  languageName: node
+  linkType: hard
+
 "@rushstack/rig-package@npm:0.5.3":
   version: 0.5.3
   resolution: "@rushstack/rig-package@npm:0.5.3"
@@ -4677,6 +4709,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rushstack/terminal@npm:0.15.1":
+  version: 0.15.1
+  resolution: "@rushstack/terminal@npm:0.15.1"
+  dependencies:
+    "@rushstack/node-core-library": "npm:5.12.0"
+    supports-color: "npm:~8.1.1"
+  peerDependencies:
+    "@types/node": "*"
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+  checksum: 10c0/ae316508b95280840624e7eeb1f09b553b9764094eee486b04ce01e1fc46677d880afe09847b4c3c49357fe0b92f35d5f2137fc39276be84857fb543f98b9dc5
+  languageName: node
+  linkType: hard
+
 "@rushstack/ts-command-line@npm:4.23.5":
   version: 4.23.5
   resolution: "@rushstack/ts-command-line@npm:4.23.5"
@@ -4686,6 +4733,18 @@ __metadata:
     argparse: "npm:~1.0.9"
     string-argv: "npm:~0.3.1"
   checksum: 8/fb2d039a04b3233e0aa306ccd581b85b3f6e8226c4b962bb59018ac5ee7fd988213087232dbbad1a0a73ae711b336176a3c3214c417ae5cdbaf3953f0714a153
+  languageName: node
+  linkType: hard
+
+"@rushstack/ts-command-line@npm:4.23.6":
+  version: 4.23.6
+  resolution: "@rushstack/ts-command-line@npm:4.23.6"
+  dependencies:
+    "@rushstack/terminal": "npm:0.15.1"
+    "@types/argparse": "npm:1.0.38"
+    argparse: "npm:~1.0.9"
+    string-argv: "npm:~0.3.1"
+  checksum: 10c0/70a1028d912116f3ee6e6cf08a6d9b967bb6a229db899deb9386b31eda7b484b63ac25405c181c0ef846d412bd99ddeaa9d679ef69eb55d17cb822f9617d756f
   languageName: node
   linkType: hard
 
@@ -23936,16 +23995,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.7.3":
-  version: 5.7.3
-  resolution: "typescript@npm:5.7.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 8/6c38b1e989918e576f0307e6ee013522ea480dfce5f3ca85c9b2d8adb1edeffd37f4f30cd68de0c38a44563d12ba922bdb7e36aa2dac9c51de5d561e6e9a2e9c
-  languageName: node
-  linkType: hard
-
 "typescript@npm:5.8.2, typescript@npm:^5.3.3, typescript@npm:~5.8.0":
   version: 5.8.2
   resolution: "typescript@npm:5.8.2"
@@ -23953,16 +24002,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/5c4f6fbf1c6389b6928fe7b8fcd5dc73bb2d58cd4e3883f1d774ed5bd83b151cbac6b7ecf11723de56d4676daeba8713894b1e9af56174f2f9780ae7848ec3c6
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>":
-  version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/dc58d777eb4c01973f7fbf1fd808aad49a0efdf545528dab9b07d94fdcb65b8751742804c3057e9619a4627f2d9cc85547fdd49d9f4326992ad0181b49e61d81
   languageName: node
   linkType: hard
 
