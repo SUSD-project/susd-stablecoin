@@ -2887,8 +2887,8 @@ __metadata:
   linkType: hard
 
 "@microsoft/api-documenter@npm:^7.12.6":
-  version: 7.26.16
-  resolution: "@microsoft/api-documenter@npm:7.26.16"
+  version: 7.26.17
+  resolution: "@microsoft/api-documenter@npm:7.26.17"
   dependencies:
     "@microsoft/api-extractor-model": "npm:7.30.4"
     "@microsoft/tsdoc": "npm:~0.15.1"
@@ -2899,7 +2899,7 @@ __metadata:
     resolve: "npm:~1.22.1"
   bin:
     api-documenter: bin/api-documenter
-  checksum: 10c0/d625a02c06351903e51055366c8677ddf52998302f11b057512021e31e08152e77da6cbb5fa717dbc601de25e815cb3bb415addd73214974917fd9da8aa0bc4c
+  checksum: 10c0/6fd64745bb3f0fb312b9520e85244f209a86887193eb8ffe4a725c627aa5867e5a6f217a766c6634ece002e91a34a517c3ae23fdf66fabc8ba9ea12ad21a83b3
   languageName: node
   linkType: hard
 
