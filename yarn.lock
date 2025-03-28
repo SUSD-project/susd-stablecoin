@@ -2479,7 +2479,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:8.28.0"
     eslint: "npm:9.23.0"
     eslint-plugin-tsdoc: "npm:0.4.0"
-    fast-check: "npm:4.0.0"
+    fast-check: "npm:4.0.1"
     mocha: "npm:11.1.0"
     npm-run-all2: "npm:7.0.2"
     ts-node: "npm:10.9.2"
@@ -12656,12 +12656,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-check@npm:4.0.0":
-  version: 4.0.0
-  resolution: "fast-check@npm:4.0.0"
+"fast-check@npm:4.0.1":
+  version: 4.0.1
+  resolution: "fast-check@npm:4.0.1"
   dependencies:
     pure-rand: "npm:^7.0.0"
-  checksum: 10c0/027f53839326b5c9362076d9efab5135674c0bbf8c07afa7fdb85c0fb3cd3d493205fc533b22b6256ac67211504dd6952bd3af3d8f582ebf2cb6ed9531d8c871
+  checksum: 10c0/766f4f1da7a4b1600fdc5e04b4035d5b9d064a6b81d9374d063fdca34168795e8806995a652ea2a39fb8e31fd3b410040517523f1c23c4009a78e216707193a9
   languageName: node
   linkType: hard
 
