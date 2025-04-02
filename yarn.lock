@@ -9779,11 +9779,12 @@ __metadata:
   linkType: hard
 
 "connectkit@npm:^1.7.3":
-  version: 1.8.2
-  resolution: "connectkit@npm:1.8.2"
+  version: 1.9.0
+  resolution: "connectkit@npm:1.9.0"
   dependencies:
     buffer: "npm:^6.0.3"
     detect-browser: "npm:^5.3.0"
+    family: "npm:^0.1.1"
     framer-motion: "npm:^6.3.11"
     qrcode: "npm:^1.5.0"
     react-transition-state: "npm:^1.1.4"
@@ -9796,7 +9797,7 @@ __metadata:
     react-dom: 17.x || 18.x
     viem: 2.x
     wagmi: 2.x
-  checksum: 10c0/e016d865a50a855922ede2a8070ea14fe13e8796a3c774d224ee71d763662843a7144af8387595fbb7670663f27a752168718fd01c40cd7fa68c916e977ed720
+  checksum: 10c0/9015446821da548c1b1a2ff74fa45b0cbd41dbc2fa4636018867d51611f86dcb0fd0f5f8d5682a3cbe92480fff409ad5f49ee7f9aa66db06a05f6d585c864d57
   languageName: node
   linkType: hard
 
@@ -12653,6 +12654,27 @@ __metadata:
   version: 0.1.8
   resolution: "eyes@npm:0.1.8"
   checksum: 8/c31703a92bf36ba75ee8d379ee7985c24ee6149f3a6175f44cec7a05b178c38bce9836d3ca48c9acb0329a960ac2c4b2ead4e60cdd4fe6e8c92cad7cd6913687
+  languageName: node
+  linkType: hard
+
+"family@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "family@npm:0.1.1"
+  peerDependencies:
+    react: 17.x || 18.x || 19.x
+    react-dom: 17.x || 18.x || 19.x
+    viem: 2.x
+    wagmi: 2.x
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+    viem:
+      optional: true
+    wagmi:
+      optional: true
+  checksum: 10c0/715c32a2b28b89b2cc6e1a9e349535702ac7e80509a50340e651f67c7fa1546ce25d27ffced1cacb111b2ee1c61654f2e7d035d9bd7cc9950a53779531826f1b
   languageName: node
   linkType: hard
 
