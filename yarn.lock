@@ -5904,13 +5904,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cookie@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@types/cookie@npm:0.6.0"
-  checksum: 8/5edce7995775b0b196b142883e4d4f71fd93c294eaec973670f1fa2540b70ea7390408ed513ddefef5fcb12a578100c76596e8f2a714b0c2ae9f70ee773f4510
-  languageName: node
-  linkType: hard
-
 "@types/d3-array@npm:^3.0.3":
   version: 3.2.1
   resolution: "@types/d3-array@npm:3.2.1"
@@ -20732,22 +20725,21 @@ __metadata:
   linkType: hard
 
 "react-router-dom@npm:^7.0.0":
-  version: 7.4.1
-  resolution: "react-router-dom@npm:7.4.1"
+  version: 7.5.1
+  resolution: "react-router-dom@npm:7.5.1"
   dependencies:
-    react-router: "npm:7.4.1"
+    react-router: "npm:7.5.1"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/2a3a3e8de0bbce384eae9c365f5b7ac406a3fdc4a70942f3aab9e74e70cb7fb88326566686c5cdbedc7e0afe005719ceba630eea67e15ebd820a3277b7c05fd3
+  checksum: 10c0/52446158f883b599385f4feb2e11491440b350bc67e3b39b9eb79f76c20706075c813c3f9383b24a56a24dc2f22e9ee1c9910019b775248aa99485bcb6933e0e
   languageName: node
   linkType: hard
 
-"react-router@npm:7.4.1":
-  version: 7.4.1
-  resolution: "react-router@npm:7.4.1"
+"react-router@npm:7.5.1":
+  version: 7.5.1
+  resolution: "react-router@npm:7.5.1"
   dependencies:
-    "@types/cookie": "npm:^0.6.0"
     cookie: "npm:^1.0.1"
     set-cookie-parser: "npm:^2.6.0"
     turbo-stream: "npm:2.4.0"
@@ -20757,7 +20749,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 10c0/c501e46bf4e672f977250acb431ecfad120d7a0383bbb17e5c3276a1390c01d36bd36bd995c9dddca39ba3a8521be11295292595523d880ec11240fc5d74e637
+  checksum: 10c0/54e9f77ede0bf36c12685a59c5d965f77f2223d01cd922ce7b6ef4f8fa5435e66c796f9f5da3487bde0cb98dadd64f5a406696d4f52e031af812857aaab0f76b
   languageName: node
   linkType: hard
 
