@@ -55,7 +55,7 @@
     "chai-as-promised": "8.0.1",
     "chai-spies": "1.1.0",
     "cross-env": "7.0.3",
-    "dotenv": "16.4.7",
+    "dotenv": "16.5.0",
     "eslint": "9.23.0",
     "eslint-plugin-tsdoc": "0.4.0",
     "ethers": "6.13.5",
