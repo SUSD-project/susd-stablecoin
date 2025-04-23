@@ -2877,19 +2877,19 @@ __metadata:
   linkType: hard
 
 "@microsoft/api-documenter@npm:^7.12.6":
-  version: 7.26.22
-  resolution: "@microsoft/api-documenter@npm:7.26.22"
+  version: 7.26.23
+  resolution: "@microsoft/api-documenter@npm:7.26.23"
   dependencies:
     "@microsoft/api-extractor-model": "npm:7.30.5"
     "@microsoft/tsdoc": "npm:~0.15.1"
     "@rushstack/node-core-library": "npm:5.13.0"
     "@rushstack/terminal": "npm:0.15.2"
-    "@rushstack/ts-command-line": "npm:4.23.7"
+    "@rushstack/ts-command-line": "npm:5.0.0"
     js-yaml: "npm:~3.13.1"
     resolve: "npm:~1.22.1"
   bin:
     api-documenter: bin/api-documenter
-  checksum: 10c0/432f635fe42a83ec55467759407249807c39dd383af7ec1802344d69444dd56856fa112d5c024f8a358cf3121e47e8f003b948fc8e3a948ea11c61f3c74cb42c
+  checksum: 10c0/18acf79135a455b7d7f64e1060647bdc0822f6f6db4d56571c840570362b900aa716970bc4a33730361d8c3a9c1803e5652f5ed8eb6fba0a5e1d78b198238041
   languageName: node
   linkType: hard
 
