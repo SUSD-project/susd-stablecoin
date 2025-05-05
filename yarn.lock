@@ -2519,7 +2519,7 @@ __metadata:
     npm-run-all2: "npm:7.0.2"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.8.3"
-    ws: "npm:8.18.1"
+    ws: "npm:8.18.2"
   peerDependencies:
     "@liquity/lib-base": ^3.0.0
     ethers: ^5.3.0 || ^6.0.0
@@ -26315,6 +26315,21 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 8/4658357185d891bc45cc2d42a84f9e192d047e8476fb5cba25b604f7d75ca87ca0dd54cd0b2cc49aeee57c79045a741cb7d0b14501953ac60c790cd105c42f23
+  languageName: node
+  linkType: hard
+
+"ws@npm:8.18.2":
+  version: 8.18.2
+  resolution: "ws@npm:8.18.2"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10c0/4b50f67931b8c6943c893f59c524f0e4905bbd183016cfb0f2b8653aa7f28dad4e456b9d99d285bbb67cca4fedd9ce90dfdfaa82b898a11414ebd66ee99141e4
   languageName: node
   linkType: hard
 
