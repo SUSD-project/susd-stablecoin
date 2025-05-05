@@ -61,7 +61,7 @@
     "ethers": "6.13.7",
     "fs-extra": "11.3.0",
     "hardhat": "^2.6.1",
-    "npm-run-all2": "7.0.2",
+    "npm-run-all2": "8.0.1",
     "ts-node": "10.9.2",
     "typescript": "5.8.3",
     "ws": "8.18.2"
