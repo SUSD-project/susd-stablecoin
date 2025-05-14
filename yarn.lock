@@ -6617,9 +6617,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wagmi/connectors@npm:5.8.1":
-  version: 5.8.1
-  resolution: "@wagmi/connectors@npm:5.8.1"
+"@wagmi/connectors@npm:5.8.2":
+  version: 5.8.2
+  resolution: "@wagmi/connectors@npm:5.8.2"
   dependencies:
     "@coinbase/wallet-sdk": "npm:4.3.0"
     "@metamask/sdk": "npm:0.32.0"
@@ -6628,19 +6628,19 @@ __metadata:
     "@walletconnect/ethereum-provider": "npm:2.20.0"
     cbw-sdk: "npm:@coinbase/wallet-sdk@3.9.3"
   peerDependencies:
-    "@wagmi/core": 2.17.1
+    "@wagmi/core": 2.17.2
     typescript: ">=5.0.4"
     viem: 2.x
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/31836dc626158945d0552784411af099c0715e38c49f52677565531a159138556d9f30edb38151d8c6d7e13be4b12d98a67bfaa563058ecf5f9456ef2aee10be
+  checksum: 10c0/9f5e1f47c8677820db6313a7b362f4237e7de4dfad01d71aeb996c2a95e277863849453b92a909dc00794c5c0a768f839c3548fdff2e7081652eefee83a68be1
   languageName: node
   linkType: hard
 
-"@wagmi/core@npm:2.17.1":
-  version: 2.17.1
-  resolution: "@wagmi/core@npm:2.17.1"
+"@wagmi/core@npm:2.17.2":
+  version: 2.17.2
+  resolution: "@wagmi/core@npm:2.17.2"
   dependencies:
     eventemitter3: "npm:5.0.1"
     mipd: "npm:0.0.7"
@@ -6654,7 +6654,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/883e68732d79de57bb6fd132a605d14c9e50f8a0bf939d4e540378a9c29b7760d5c9c80f7b798fac7b5fe0fd265a55898cfa1cc633fcf163a10035e91f59f276
+  checksum: 10c0/1f28545efa1e740f9b9253139de8df58e9b0b5d6c0c9259e0f9ba2999947816d0ab9ae18e88f995a131beb94c8443fede49b753147ab8d6bb191f53984d2a524
   languageName: node
   linkType: hard
 
@@ -25407,11 +25407,11 @@ __metadata:
   linkType: hard
 
 "wagmi@npm:^2.5.7":
-  version: 2.15.2
-  resolution: "wagmi@npm:2.15.2"
+  version: 2.15.3
+  resolution: "wagmi@npm:2.15.3"
   dependencies:
-    "@wagmi/connectors": "npm:5.8.1"
-    "@wagmi/core": "npm:2.17.1"
+    "@wagmi/connectors": "npm:5.8.2"
+    "@wagmi/core": "npm:2.17.2"
     use-sync-external-store: "npm:1.4.0"
   peerDependencies:
     "@tanstack/react-query": ">=5.0.0"
@@ -25421,7 +25421,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/f39f49d5c240c2b1dcff5689f4336361ac15230ebe72c5d1de5054d8bd4a893cf69f3cd9f941c60275e3759b7dfd18acfa7ca4c4ef8b4793cb1fa2dde2dc7493
+  checksum: 10c0/464a45394247d8d24d10e372ff50718aa4d45ec7929cdff55e5f156cf11a2cea7cb543c306e68f792fb83abb14dd73a5be51ab51c6cfb67a6f29222374323d37
   languageName: node
   linkType: hard
 
