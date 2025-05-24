@@ -9256,7 +9256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.3.0":
+"chalk@npm:^5.3.0, chalk@npm:^5.4.1":
   version: 5.4.1
   resolution: "chalk@npm:5.4.1"
   checksum: 8/0c656f30b782fed4d99198825c0860158901f449a6b12b818b0aabad27ec970389e7e8767d0e00762175b23620c812e70c4fd92c0210e55fc2d993638b74e86e
@@ -17559,20 +17559,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-terminal@npm:^7.0.0":
-  version: 7.2.1
-  resolution: "marked-terminal@npm:7.2.1"
+"marked-terminal@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "marked-terminal@npm:7.3.0"
   dependencies:
     ansi-escapes: "npm:^7.0.0"
     ansi-regex: "npm:^6.1.0"
-    chalk: "npm:^5.3.0"
+    chalk: "npm:^5.4.1"
     cli-highlight: "npm:^2.1.11"
     cli-table3: "npm:^0.6.5"
-    node-emoji: "npm:^2.1.3"
+    node-emoji: "npm:^2.2.0"
     supports-hyperlinks: "npm:^3.1.0"
   peerDependencies:
-    marked: ">=1 <15"
-  checksum: 8/f6eea47b692955175407fe89ac2c944dc674c681da186ebe71f23816c9f10bd7f2f4ed3e2507a2c2e0a2c92d49dff8cc618caea7cb61e0d2ac2d1b1f3061759e
+    marked: ">=1 <16"
+  checksum: 10c0/59d23c2ed9488c40856d828f431ae1d5d57426e791bbce8f05ec5a7d3a1f848cdb3b8d8880d76ae45570415f8b48ae459f50bbbd88ece5a31306f1e3de57f021
   languageName: node
   linkType: hard
 
@@ -18481,7 +18481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-emoji@npm:^2.1.3":
+"node-emoji@npm:^2.2.0":
   version: 2.2.0
   resolution: "node-emoji@npm:2.2.0"
   dependencies:
@@ -21855,8 +21855,8 @@ __metadata:
   linkType: hard
 
 "semantic-release@npm:^24.0.0":
-  version: 24.2.4
-  resolution: "semantic-release@npm:24.2.4"
+  version: 24.2.5
+  resolution: "semantic-release@npm:24.2.5"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^13.0.0-beta.1"
     "@semantic-release/error": "npm:^4.0.0"
@@ -21877,7 +21877,7 @@ __metadata:
     import-from-esm: "npm:^2.0.0"
     lodash-es: "npm:^4.17.21"
     marked: "npm:^15.0.0"
-    marked-terminal: "npm:^7.0.0"
+    marked-terminal: "npm:^7.3.0"
     micromatch: "npm:^4.0.2"
     p-each-series: "npm:^3.0.0"
     p-reduce: "npm:^3.0.0"
@@ -21889,7 +21889,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 10c0/cd7b9da57c7538319b55a3854e3c3d451063ec2b8e362ab9c5ad07bdbd91cfb88c332c513cae0ab3c31264e883004032b02953baec3b8163a923eaf36c9ef3e7
+  checksum: 10c0/2b8d09c0bba73b01be18a10c9bea733cf79be18cc266009c898b530d240b91d92dba3aef0ee8e2e08413cd4fa75c79e10c56cbf604f2aecfcf4de962b52412de
   languageName: node
   linkType: hard
 
