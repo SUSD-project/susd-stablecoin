@@ -14618,8 +14618,8 @@ __metadata:
   linkType: hard
 
 "hardhat@npm:^2.6.1":
-  version: 2.24.0
-  resolution: "hardhat@npm:2.24.0"
+  version: 2.24.2
+  resolution: "hardhat@npm:2.24.2"
   dependencies:
     "@ethereumjs/util": "npm:^9.1.0"
     "@ethersproject/abi": "npm:^5.1.2"
@@ -14672,7 +14672,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/bootstrap.js
-  checksum: 10c0/1b29e472c17b2c31894823b45da687ae2a1d17495dc5b6cbdce31979424815e969d61e8f777183154bc922f740b6681a09ef6f38e91d5decd80adb3b68cc7829
+  checksum: 10c0/810d6540dab11667a793fba79cb97c9b6401bd6f10ba55459c28cc82c28a449354d714e1e4d48292e9cc002b7cd3dbfdf7d7b00be12dd8976a661d5be94d7e96
   languageName: node
   linkType: hard
 
