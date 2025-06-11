@@ -27,8 +27,8 @@
   "devDependencies": {
     "@microsoft/api-extractor": "7.52.8",
     "@types/mocha": "10.0.10",
-    "@typescript-eslint/eslint-plugin": "8.32.1",
-    "@typescript-eslint/parser": "8.32.1",
+    "@typescript-eslint/eslint-plugin": "8.34.0",
+    "@typescript-eslint/parser": "8.34.0",
     "eslint": "9.27.0",
     "eslint-plugin-tsdoc": "0.4.0",
     "fast-check": "4.1.1",
